@@ -1,4 +1,8 @@
 # yuryk-outbox-go
+<picture>
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/yedoma-labs/assets/main/resized/banner-resized-mobile.png">
+  <img src="https://raw.githubusercontent.com/yedoma-labs/assets/main/resized/banner-resized.png" alt="Project Header">
+</picture>
 
 A small Go library for sending outbound webhooks with correct retry semantics. It has stable event
 IDs across retries, `Retry-After` support, per-attempt timeouts, and
